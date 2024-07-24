@@ -1,0 +1,117 @@
+.login {
+}
+
+.login .com4in-ci {
+  position: absolute;
+  top: 25px;
+  left: 50px;
+  color: #fff;
+  width: 150px;
+  height: auto;
+  filter: brightness(0) invert(0.9);
+}
+
+.logo-box {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+
+.login-form .itsm-ci {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #9e9e9e;
+  position: relative;
+  transform: translate(0, -20px);
+}
+
+.login-form .itsm-ci > img {
+  width: 170px;
+}
+.login-form .itsm-ci > p {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.75rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  white-space: nowrap;
+  transform: translate(0, -50%);
+}
+
+.login-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../Image/login-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  padding: var(--distance-container);
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: var(--distance-container);
+  max-width: 500px;
+  width: 100%;
+  background-color: var(--content-background-color);
+  border-radius: var(--radius-button);
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-container + * {
+  margin-top: var(--distance-align-content);
+}
+
+.login-form > input + input {
+  margin-top: var(--distance-align-item);
+}
+
+@keyframes border {
+  from {
+    border: none;
+  }
+  to {
+    border-bottom: 1px solid #072e63;
+    transition: 2s;
+  }
+}
+
+.login-button {
+  background-color: #072e63;
+  color: #ffffff;
+  font-size: var(--title-font);
+  border: none;
+  cursor: pointer;
+
+  height: 50px;
+  width: 100%;
+  border-radius: var(--radius-button);
+  margin-top: var(--distance-align-content);
+}
+
+.password-dialog {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.password-dialog > * {
+  margin-bottom: 10px;
+}
+
+.password-dialog > :nth-last-child(2) {
+  margin-bottom: 0px;
+}

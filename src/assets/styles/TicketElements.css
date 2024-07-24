@@ -1,0 +1,44 @@
+/* .element-box {
+  padding: 20px 0px;
+} */
+
+.element-column {
+  width: 100%;
+}
+
+.element-row {
+  display: flex;
+  align-items: center;
+}
+
+/* .element-row > .element-title {
+  font-size: var(--title-font-2);
+  padding-bottom: 5px;
+} */
+
+.element-row > .required {
+  color: red;
+}
+
+/* .select-element {
+  min-width: 20px;
+} */
+
+.select-element-time {
+  width: 80px;
+  min-width: 20px;
+  text-align: center;
+}
+
+.select-element-time-input {
+  width: 80px;
+  min-width: 20px;
+  text-align: center;
+}
+
+.element-divider {
+  align-self: center;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

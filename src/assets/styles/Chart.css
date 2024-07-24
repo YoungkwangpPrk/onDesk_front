@@ -1,0 +1,60 @@
+.chart-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.donut-wrapper {
+  height: 100%;
+  width: 100%;
+  min-width: 400px;
+  height: 250px;
+}
+
+.recharts-legend-item .recharts-surface {
+  transform: translate(0, -3px);
+}
+
+.recharts-pie {
+  transform: translate(0px, -20px);
+}
+
+.recharts-legend-wrapper {
+  width: 30% !important;
+}
+
+.bar-wrapper {
+  position: relative;
+  border-left: 1px solid var(--color-border-gray);
+  width: 100%;
+  max-width: 50%;
+  height: 250px;
+  padding: 20px 0 20px 50px;
+}
+
+.bar-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  padding: 20px;
+}
+.recharts-cartesian-grid-horizontal > :nth-last-child(1) {
+  /* stroke: #3d3d3d; */
+}
+
+.recharts-cartesian-grid-horizontal > line {
+  stroke: #d3d3d3;
+}
+
+@media screen and (max-width: 900px) {
+  .chart-container {
+    flex-direction: column;
+  }
+  .bar-wrapper {
+    padding: 30px 0 20px 0;
+    max-width: 100%;
+    border-left: none;
+    border-top: 1px solid var(--color-border-gray);
+  }
+}

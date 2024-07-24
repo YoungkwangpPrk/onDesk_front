@@ -1,0 +1,11 @@
+.viewer-border {
+  width: 100%;
+  height: auto;
+  padding: var(--space-box);
+  border: 1px solid var(--color-border-gray);
+}
+
+.viewer-width {
+  width: auto;
+  /* max-width: 1200px; */
+}
